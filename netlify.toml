@@ -1,0 +1,4 @@
+[build]
+  command = "node netlify.js && npm run build"
+  publish = "build"
+  node_version = "14"
