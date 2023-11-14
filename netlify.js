@@ -4,7 +4,7 @@
 process.env.NODE_OPTIONS = JSON.stringify({
     fallback: {
       crypto: false,
-      path: false,
+      path: require.resolve("path-browserify"),
       fs: false,
       os: false,
     },
